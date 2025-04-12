@@ -13,7 +13,7 @@ public class playerMovement : MonoBehaviour {
         body.linearVelocity = new Vector2((Input.GetAxis("Horizontal") * speed), body.linearVelocity.y);
         
         if(Input.GetKey(KeyCode.Space)) { 
-            body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
+            body.linearVelocity = new Vector2(body.linearVelocity.x, speed/2);
         }
 
     }
