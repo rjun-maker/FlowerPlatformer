@@ -11,7 +11,10 @@ public class playerMovement : MonoBehaviour {
 
     private void Update() {
         body.linearVelocity = new Vector2((Input.GetAxis("Horizontal") * speed), body.linearVelocity.y);
-         
+        
+        if(Input.GetKey(KeyCode.Space)) { 
+            body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
+        }
 
     }
 }
