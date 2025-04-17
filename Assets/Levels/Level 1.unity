@@ -1732,7 +1732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33007bf6a59e54e1d9e2b9017731e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previousRoom: {fileID: 2003957351}
+  previousRoom: {fileID: 0}
   nextRoom: {fileID: 519486629}
   cam: {fileID: 0}
 --- !u!61 &334966438
@@ -5511,7 +5511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   previousRoom: {fileID: 1443294691}
-  nextRoom: {fileID: 2003957351}
+  nextRoom: {fileID: 0}
   cam: {fileID: 0}
 --- !u!61 &737389134
 BoxCollider2D:
@@ -7730,7 +7730,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33007bf6a59e54e1d9e2b9017731e294, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  previousRoom: {fileID: 2003957351}
+  previousRoom: {fileID: 0}
   nextRoom: {fileID: 1828634463}
   cam: {fileID: 0}
 --- !u!61 &1097966311

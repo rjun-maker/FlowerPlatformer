@@ -67,14 +67,14 @@ public class playerMovement : MonoBehaviour {
     }
 
 
-
-
     private void Jump() {
 
+        // if grounded, we can jump!
         if (isGrounded()) {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpPower);
             anim.SetTrigger("jump");
 
+        // if we aren't grounded and on wall ...
         } else if (onWall() && !isGrounded()) {
 
             if (horizontalInput == 0) {
